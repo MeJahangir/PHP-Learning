@@ -17,10 +17,15 @@
 
     // $monirul = 20;
     // $joy = 10;
-    // var_dump($monirul + $joy);
+    // var_dump($monirul + $joy); 
 
-    $var_null = Null;
-    var_dump($var_null);
+    // $var_null = Null;
+    // var_dump($var_null);
+
+    $car => oil = 2.5;
+            wheel = 2;
+            brand = tesla;
+    var_dump($car);
 
 
 ?>
