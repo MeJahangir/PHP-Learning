@@ -27,5 +27,4 @@
             brand = tesla;
     var_dump($car);
 
-
 ?>
