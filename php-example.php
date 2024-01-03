@@ -1,8 +1,8 @@
 <?php
     
-    // $name = "jahangir";
-    // $age = 24;
-    // echo "My name is ". $name;
+    $name = "jahangir";
+    $age = 24;
+    echo "My name is ". $name;
 
     // $names = "Md jahangir alam";
     // var_dump($names);
@@ -22,9 +22,9 @@
     // $var_null = Null;
     // var_dump($var_null);
 
-    $car => oil = 2.5;
-            wheel = 2;
-            brand = tesla;
-    var_dump($car);
+    // $car => oil = 2.5;
+    //         wheel = 2;
+    //         brand = tesla;
+    // var_dump($car);
 
 ?>
