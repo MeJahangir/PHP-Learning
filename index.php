@@ -7,5 +7,14 @@
       $sum = $variable1 + $variable2 + $variable3;
       
       echo "The sum is: " . $sum;
+     
+    
+      $variable1 = "fast";
+      $variable2 = "medele";
+      $variable3 = "last";
+
+      $sum = $variable1 . " " . $variable2 . $variable3;
+
+      echo "The sum is: " . $sum;
     ?>
     
