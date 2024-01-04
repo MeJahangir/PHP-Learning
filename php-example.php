@@ -26,5 +26,8 @@
     //         wheel = 2;
     //         brand = tesla;
     // var_dump($car);
+    
+    // $fastName = "jahangir"; Camel case
+
 
 ?>

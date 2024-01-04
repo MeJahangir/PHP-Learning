@@ -14,7 +14,6 @@
       $variable3 = "last";
 
       $sum = $variable1 . " " . $variable2 . $variable3;
-
       echo "The sum is: " . $sum;
     ?>
     
