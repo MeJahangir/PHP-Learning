@@ -15,5 +15,17 @@
 
       $sum = $variable1 . " " . $variable2 . $variable3;
       echo "The sum is: " . $sum;
-    ?>
+
+      $a = 1;
+      while ($a <= 10) {
+        echo "hello bangladesh $a<br>";
+        $a++;
+      }
+      $counter = 1;
+
+      while ($counter <= 5) {
+          echo "Count: $counter<br>";
+          $counter++;
+      }
+?>
     
