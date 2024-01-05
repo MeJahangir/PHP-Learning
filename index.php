@@ -16,7 +16,7 @@
       $sum = $variable1 . " " . $variable2 . $variable3;
       echo "The sum is: " . $sum;
 
-      $a = 1;
+      $a = 4;
       while ($a <= 10) {
         echo "hello bangladesh $a<br>";
         $a++;
@@ -27,5 +27,9 @@
           echo "Count: $counter<br>";
           $counter++;
       }
-?>
-    
+      for ($i=0; $i <= 100; $i++) { 
+        echo $i;
+      }
+
+      $test = array('jahangir', 'alam', 'joy', 'rakib');
+      echo $test[1];
