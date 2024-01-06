@@ -43,3 +43,7 @@
   } else {
       echo "Sorry, you didn't pass.";
   } 
+  $name = "jahanir alam joy";
+  $age = 45;
+  var_dump($name, $age);
+
