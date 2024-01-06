@@ -33,12 +33,12 @@
       $test = array('jahangir', 'alam', 'joy', 'rakib');
       echo $test[1];
       
-      $score = 75;
-      if ($score >= 90) {
+      $score = 95;
+      if ($score <= 90) {
           echo "Excellent!";
-      } elseif ($score >= 70) {
+      } elseif ($score <= 70) {
           echo "Good job!";
-      } elseif ($score >= 50) {
+      } elseif ($score <= 50) {
           echo "You passed.";
       } else {
           echo "Sorry, you didn't pass.";
