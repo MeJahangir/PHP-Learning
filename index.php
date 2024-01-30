@@ -61,4 +61,14 @@
 
 
 // readfile('text')
-   
+
+
+$txt = "w3School.com";
+echo "I love $txt!";
+
+var_dump(4);
+var_dump("jahangir");
+var_dump(3,4);
+var_dump(true);
+var_dump([2,3,4]);
+var_dump(NULL);
