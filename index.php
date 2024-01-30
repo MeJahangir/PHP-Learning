@@ -61,5 +61,4 @@
 
 
 // readfile('text')
-echo "hello bangladesh";
    
