@@ -62,13 +62,18 @@
 
 // readfile('text')
 
+// Global scope 
+$x = 5;
+function myTest(){
+  echo "<p>variable x inside function is:</p>";
+}
+myTest();
+echo "<p>variable x outside function is: $x</p>";
 
-$txt = "w3School.com";
-echo "I love $txt!";
-
-var_dump(4);
-var_dump("jahangir");
-var_dump(3,4);
-var_dump(true);
-var_dump([2,3,4]);
-var_dump(NULL);
+// local scope
+function myText() {
+  $x = 5;
+  echo "Hello Bangladesh $x";
+}
+myText();
+echo "Hello bangladesh is: $x";
