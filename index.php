@@ -83,3 +83,7 @@ $fName = 'jahangir';
 $lName = 'alam';
 printf("my %s is %s %s","name" ,$fName, $lName);
 // result : my name is jahangir alam;
+
+// length check
+$lengthCheck = "Hello World";
+echo strlen($lengthCheck);
