@@ -77,3 +77,9 @@ function myText() {
 }
 myText();
 echo "Hello bangladesh is: $x";
+
+// printf diye onek gulo variable print system
+$fName = 'jahangir';
+$lName = 'alam';
+printf("my %s is %s %s","name" ,$fName, $lName);
+// result : my name is jahangir alam;
