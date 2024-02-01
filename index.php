@@ -87,4 +87,5 @@ printf("my %s is %s %s","name" ,$fName, $lName);
 // length check
 $lengthCheck = "Hello World";
 echo strlen($lengthCheck);
+echo '<br>';
 echo str_word_count($lengthCheck);
