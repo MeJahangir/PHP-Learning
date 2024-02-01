@@ -89,3 +89,7 @@ $lengthCheck = "Hello World";
 echo strlen($lengthCheck);
 echo '<br>';
 echo str_word_count($lengthCheck);
+
+// variable ar kisu word cut korty
+$x = "Hello World";
+echo substr($x, 2, 6);
