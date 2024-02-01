@@ -93,3 +93,7 @@ echo str_word_count($lengthCheck);
 // variable ar kisu word cut korty
 $x = "Hello World";
 echo substr($x, 2, 6);
+
+// php constant declear
+const testing = "jahangir alam joy";
+echo testing;
