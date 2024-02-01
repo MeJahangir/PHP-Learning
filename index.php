@@ -97,3 +97,9 @@ echo substr($x, 2, 6);
 // php constant declear
 const testing = "jahangir alam joy";
 echo testing;
+
+define("cars", [
+  "alfa romeo"
+  "BMW",
+  "Toyota"
+]);
