@@ -99,7 +99,17 @@ const testing = "jahangir alam joy";
 echo testing;
 
 define("cars", [
-  "alfa romeo"
+  "alfa romeo",
   "BMW",
   "Toyota"
 ]);
+echo cars[2];
+
+echo '<br>';
+// php conditon add 
+$jahangir = 100;
+if ($jahangir > 110) {
+  echo "Have a good day";
+}else{
+  echo "Hello Bangladesh";
+}
