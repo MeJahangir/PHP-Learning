@@ -119,8 +119,8 @@ if ($jahangir == 100) {
   echo "Hello World";
 }
 
+echo '<br>';
 $a = 13;
-
 if ($a > 10) {
   echo "Above 10";
   if ($a > 20) {
@@ -128,4 +128,20 @@ if ($a > 10) {
   } else {
     echo " but not above 20";
   }
+}
+
+$favcolor = "red";
+
+switch ($favcolor) {
+  case "red":
+    echo "Your favorite color is red!";
+    break;
+  case "blue":
+    "Your favorite color is blue!";
+    break;
+  case "green":
+    echo "Your favorite color is green!";
+    break;
+  default:
+    echo "Your favorite color is neither red, blue, nor green!";
 }
