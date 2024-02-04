@@ -159,9 +159,13 @@ switch ($d) {
     echo "Looking forward to the Weekend";
 }
 
+echo '<br>';
 // php loops
-$i = 1;
+// while loops 
+$i = 6;
 while ($i < 10) {
   echo $i;
   $i++;
 }
+
+// for loops
