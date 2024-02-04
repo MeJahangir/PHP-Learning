@@ -130,7 +130,7 @@ if ($a > 10) {
   }
 }
 
-$favcolor = "red";
+$favcolor = "green";
 
 switch ($favcolor) {
   case "red":
