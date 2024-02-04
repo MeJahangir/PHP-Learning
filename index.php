@@ -130,8 +130,8 @@ if ($a > 10) {
   }
 }
 
+echo '<br>';
 $favcolor = "green";
-
 switch ($favcolor) {
   case "red":
     echo "Your favorite color is red!";
@@ -144,4 +144,17 @@ switch ($favcolor) {
     break;
   default:
     echo "Your favorite color is neither red, blue, nor green!";
+}
+
+echo '<br>';
+$d = 4;
+switch ($d) {
+  case 6:
+    echo "Today is Saturday";
+    break;
+  case 0:
+    echo "Today is Sunday";
+    break;
+  default:
+    echo "Looking forward to the Weekend";
 }
