@@ -209,3 +209,11 @@ while($x < 10) {
   }
   echo "The number is: $x <br>";
 } 
+
+$color = array("red", "green", "blue", "yellow");
+
+foreach ($color as $x) {
+  if ($x == "green") continue;
+    echo "$x <br>";
+  
+}
