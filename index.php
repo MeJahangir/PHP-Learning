@@ -182,23 +182,19 @@ for ($x = 0; $x <= 10; $x++) {
 }
 
 // foreach area
-$colors = array("red", "green", "blue", "yellow");
+$nemes = array("jahangir","monirul","joy","nur");
 
-foreach ($colors as $x) {
-  echo "$x <br>";
-}
+foreach($nemes as $x):
+echo "$x<br>";
+endforeach;
 
-class Car {
-  public $color;
-  public $model;
-  public function __construct($color, $model) {
-    $this->color = $color;
-    $this->model = $model;
+// braak area add
+$x = 0;
+ 
+while($x < 10) {
+  if ($x == 4) {
+    break;
   }
-}
-
-$myCar = new Car("red", "Volvo");
-
-foreach ($myCar as $x => $y) {
-  echo "$x: $y<br>";
+  echo "The number is: $x <br>";
+  $x++;
 }
