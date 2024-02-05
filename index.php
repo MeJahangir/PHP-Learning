@@ -198,3 +198,14 @@ while($x < 10) {
   echo "The number is: $x <br>";
   $x++;
 }
+
+// continue area add
+$x = 0;
+ 
+while($x < 10) {
+  $x++;
+  if ($x == 4) {
+    continue;
+  }
+  echo "The number is: $x <br>";
+} 
