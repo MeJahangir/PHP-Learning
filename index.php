@@ -217,3 +217,18 @@ foreach ($color as $x) {
     echo "$x <br>";
   
 }
+
+function FunctionName() {
+  echo "Jahangir alam joy";
+}
+
+FunctionName();
+
+function familyName($fName) {
+  echo "$fName islam.<br>";
+}
+familyName("jani");
+familyName("jahangir");
+familyName("nur");
+familyName("hamid");
+familyName("joy");
