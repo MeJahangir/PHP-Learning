@@ -245,8 +245,46 @@ echo "<br>";
 // absulet function
 echo (abs(7.9));
 echo "<br>";
+// global function
 $m = 100;
 function testFunction() {
   echo "How old are you?";
 }
 testFunction();
+
+echo '<br>';
+// local variable
+function jahangir() {
+  $m = 10;
+  echo "Give me a $m taka please"; 
+}
+jahangir();
+
+echo '<br>';
+
+// php the global keyword
+$x = 100;
+$y = 90;
+function globalFun() {
+  global $x, $y;
+  $y = $x + $y;
+}
+globalFun();
+echo $y;
+
+echo '<br>';
+
+$info = '1235678';
+var_dump($info);
+
+echo '<br>';
+
+// array value function and foreach loop kore ber korlam
+$cars = array('volvo', 'BMW', 'Toyota');
+function carsName() {
+  global $cars;
+  foreach ($cars as $car) {
+    echo $car . "<br>";
+  }
+}
+carsName();
