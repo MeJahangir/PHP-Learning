@@ -240,3 +240,7 @@ $o = 020;
 printf("The number is %d and %d", $n, $o);
 echo "<br>";
 printf("Octal number %o = %d", 0200000, 0200000);
+
+echo "<br>";
+// absulet function
+echo (abs(7.9));
