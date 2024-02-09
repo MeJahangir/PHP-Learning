@@ -244,3 +244,9 @@ printf("Octal number %o = %d", 0200000, 0200000);
 echo "<br>";
 // absulet function
 echo (abs(7.9));
+echo "<br>";
+$m = 100;
+function testFunction() {
+  echo "How old are you?";
+}
+testFunction();
