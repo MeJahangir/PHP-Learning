@@ -288,3 +288,25 @@ function carsName() {
   }
 }
 carsName();
+
+echo "<br>";
+
+// Php object add 
+class Car{
+  public $make;
+  public $model;
+  public $year;
+
+  public function __construct($make, $model, $year) {
+    $this->make = $make;
+    $this->model = $model;
+    $this->year = $year;
+  }
+
+  public function carInfo() {
+    return "Make" . $this->make . " " . "<br>" . " Model" . $this->model . " " . "<br>" . "Year"  . $this->year;
+  }
+}
+
+$carResult = new Car("toyota", "camry", "2020");
+echo $carResult->carInfo();
