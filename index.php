@@ -314,3 +314,9 @@
 // Length check
 $names = "md jahangir alam";
 echo strlen($names);
+
+echo '<br>';
+// word check 
+echo str_word_count($names);
+
+echo '<br>';
