@@ -310,3 +310,7 @@
 
 // $carResult = new Car("toyota", "camry", "2020");
 // echo $carResult->carInfo();
+
+// Length check
+$names = "md jahangir alam";
+echo strlen($names);
