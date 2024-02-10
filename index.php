@@ -311,12 +311,25 @@
 // $carResult = new Car("toyota", "camry", "2020");
 // echo $carResult->carInfo();
 
-// Length check
+// Length check/count
 $names = "md jahangir alam";
 echo strlen($names);
 
 echo '<br>';
-// word check 
+// word check/count
 echo str_word_count($names);
-
 echo '<br>';
+//string touppercase print
+echo strtoupper($names);
+echo '<br>';
+// contant loware case print
+echo strtolower($names);
+echo '<br>';
+// string to array
+$string = "Hello";
+$array = str_split($string);
+print_r($array);
+echo '<br>';
+$string = "apple,banana,orange";
+$array = explode(",", $string);
+print_r($array);
