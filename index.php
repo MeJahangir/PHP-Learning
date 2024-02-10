@@ -333,3 +333,7 @@ echo '<br>';
 $string = "apple,banana,orange";
 $array = explode(",", $string);
 print_r($array);
+echo '<br>';
+//Php slicing ($x er man 0 index theke suru kore 6 word count korbe and 5 last word theke count korbe)
+$x = "Hello World!";
+echo substr($x, 6, 5);
