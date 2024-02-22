@@ -340,16 +340,3 @@ echo substr($x, 6, 5);
 
 echo '<br>';
 
-function evenOrOdd($n) {
-  if ($n % 2 == 0) {
-    return true;
-  }
-   return false;
-}
-
-$x = 13;
-if (evenOrOdd($x)) {
-  echo "{$x} in an even numver";
-}else{
-  echo "{$x} is an odd number";
-}
