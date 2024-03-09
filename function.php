@@ -12,8 +12,8 @@ function isEven($m)
 
 
 // factorial function
-function factorial(  $n) {
-    $result = 1;8
+function factorial($n) {
+    $result = 1;
     for($i = $n; $i > 1; $i--) {
         $result *= $i;
     }
