@@ -98,4 +98,4 @@ $student = [
                 </div>
             </div>
         <?php } ?>
-    </div>
+    </div> 
