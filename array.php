@@ -101,6 +101,6 @@ $student = [
     </div> 
 
 <?php
-function myFunction() {
-    
-}
+function myMessage() {
+    echo "Hello world!";
+  }
