@@ -99,3 +99,8 @@ $student = [
             </div>
         <?php } ?>
     </div> 
+
+<?php
+function myFunction() {
+    
+}
