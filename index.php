@@ -291,7 +291,7 @@ carsName();
 
 echo "<br>";
 
-Php object add 
+// Php object add 
 class Car{
   public $make;
   public $model;
@@ -339,4 +339,3 @@ $x = "Hello World!";
 echo substr($x, 6, 5);
 
 echo '<br>';
-
