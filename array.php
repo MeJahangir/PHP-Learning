@@ -104,3 +104,6 @@ $student = [
 function myMessage() {
     echo "Hello world!";
   }
+
+$name  = array('jahangir' => 'my name', 'age'=> 25, 'phone' => 04034);
+printf($name);
